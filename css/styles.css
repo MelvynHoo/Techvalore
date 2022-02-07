@@ -34,6 +34,15 @@ nav .icon a{
     text-decoration: none;
 }
 
+nav .profile-icon{
+    position:fixed;
+    right:30px;
+    top: 17px;
+}
+nav .profile-icon img{
+    width: 40px;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -44,12 +53,12 @@ nav {
 nav .container1 {
     position:fixed;
     right: 0px;
-    width: 50%;
+    width: 100%;
     /*max-width: 100%;*/
     padding: 20px;
 }
 nav .container1 ul{
-    text-align: right;
+    text-align: center;
 }
 nav .container1 ul li {
     display: inline-block;
@@ -143,6 +152,12 @@ nav .container1 ul li.active a {
 }
 
 /*Login Page*/
+
+#login {
+    background-color: #ffffff;
+
+}
+
 a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -151,3 +166,5 @@ a.button {
     text-decoration: none;
     color: initial;
 }
+
+/*Register Page*/
