@@ -2,7 +2,6 @@
 $(document).ready(function () {
   //what kind of interface we want at the start 
   const APIKEY = "6200f13c1b941c73ff397943";
-  // 5ffa0351823229477922c949
   getContacts();
   $("#update-contact-container").hide();
   $("#add-update-msg").hide();
@@ -56,7 +55,7 @@ $(document).ready(function () {
       $("#contact-submit").prop( "disabled", false);
       
       //@TODO update frontend UI 
-      $("#add-update-msg").show().fadeOut(3000);
+      $("#add-update-msg").show().delay(20000).fadeOut(2000);
 
       //update our table 
       getContacts();
