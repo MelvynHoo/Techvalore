@@ -17,7 +17,7 @@ $(document).ready(function () {
     //you are to do your own data validation
     let contactName = $("#contact-name").val();
     let contactEmail = $("#contact-email").val();
-    let contactPassword = $("#contact-pw").val();
+    let contactPassword = $("#contact-password").val();
 
     //[STEP 3]: get form values when user clicks on send
     //Adapted from restdb api
@@ -109,7 +109,7 @@ $(document).ready(function () {
         content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
         <td>${response[i].email}</td>
         <td>${response[i].password}</td>
-        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-msg='${response[i].password}' data-name='${response[i].name}' data-email='${response[i].email}'>Update</a></td></tr>`;
+        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-pw='${response[i].password}' data-name='${response[i].name}' data-email='${response[i].email}'>Update</a></td></tr>`;
 
       }
 
@@ -134,7 +134,7 @@ $(document).ready(function () {
     let contactEmail = $(this).data("email");
     let contactPassword = $(this).data("pw");
     let contactId = $(this).data("id");
-    console.log($(this).data("msg"));
+    console.log($(this).data("pw"));
 
     //[STEP 11]: Load in our data from the selected row and add it to our update contact form 
     $("#update-contact-name").val(contactName);
@@ -155,8 +155,8 @@ $(document).ready(function () {
     let contactPassword = $("#update-contact-pw").val();
     let contactId = $("#update-contact-id").val();
 
-    console.log($("#update-contact-msg").val());
-    console.log(contactMsg);
+    console.log($("#update-contact-pw").val());
+    console.log(contactPassword);
 
     //[STEP 12a]: We call our update form function which makes an AJAX call to our RESTDB to update the selected information
     updateForm(contactId, contactName, contactEmail, contactPassword);
@@ -167,7 +167,7 @@ $(document).ready(function () {
   function updateForm(id, contactName, contactEmail, contactPassword) {
     //@TODO create validation methods for id etc. 
 
-    var jsondata = { "name": contactName, "email": contactEmail, "message": contactPassword };
+    var jsondata = { "name": contactName, "email": contactEmail, "password": contactPassword };
     var settings = {
       "async": true,
       "crossDomain": true,
