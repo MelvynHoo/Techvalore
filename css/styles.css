@@ -111,6 +111,21 @@ nav .container1 ul li.active a {
     font-size: 20px;
 }
 
+.mascot {
+    position: sticky;
+    top: 0;
+    z-index: 0; /*To not allow the content to go over the header when scroll*/
+    height: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.mascot img{
+    width: 250px;
+    padding-top: 700px;
+}
+
+
 /* Home Page Section */
 .container2{
     width: 100%;
