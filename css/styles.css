@@ -162,11 +162,28 @@ nav .container1 ul li.active a {
     padding-top: 1.5%;
 }
 
-/*Login Page*/
+/*Loading Page*/
+.animation-center{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/ /*if we only want this item to be smack center*/
+}
 
+.loading-text{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    top: -100px;
+    position: relative;
+    font-style: italic;
+}
+
+/*Login Page*/
 #login {
     background-color: #ffffff;
-
+    height: 85vh; /*vh = viewport height*/
 }
 
 a.button {
