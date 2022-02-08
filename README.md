@@ -18,4 +18,10 @@ This website is to show that how user can explore within it.
  - Guide from Class Assessment :[Fork from replit
  ](https://replit.com/@Jian_Ting_Donov/simple-restDB)
 
- https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r
+### Lottie
+- Lottie Loading :[Fork from lottiefiles
+ ](https://lottiefiles.com/89991-loading)
+
+### StackOverflow
+- [How to make an input type=button act like a hyperlink and redirect using a get request?
+](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
