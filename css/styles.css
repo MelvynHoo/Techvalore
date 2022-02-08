@@ -121,8 +121,10 @@ nav .container1 ul li.active a {
 }
 
 .mascot img{
-    width: 250px;
     padding-top: 700px;
+    width: 250px;
+    bottom: 0;
+    right: 0;
 }
 
 
