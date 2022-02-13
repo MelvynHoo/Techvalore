@@ -25,3 +25,9 @@ This website is to show that how user can explore within it.
 ### StackOverflow
 - [How to make an input type=button act like a hyperlink and redirect using a get request?
 ](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
+
+### Icons & Fonts
+- Google: [Fonts
+ ](https://fonts.google.com/)
+ - Lottie Loading : [Icons
+ ](https://fonts.google.com/icons?selected=Material+Icons)
