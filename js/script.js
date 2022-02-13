@@ -1,15 +1,3 @@
-function removeLoader(){
-    document.getElementById("hide").style.display = "none";
-    
-    setTimeout(()=>{
-       let loader = document.getElementById('loader');
-      let appear = document.getElementById('hide');
-    // hide the loader
-    loader.style = 'display: none;';
-    appear.style = 'display: block;';
-    },3000);  
-  }
-
 $(document).ready(function () {
     //what kind of interface we want at the start 
     const APIKEY = "6200f13c1b941c73ff397943";
