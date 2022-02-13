@@ -29,5 +29,5 @@ This website is to show that how user can explore within it.
 ### Icons & Fonts
 - Google: [Fonts
  ](https://fonts.google.com/)
- - Lottie Loading : [Icons
+- Google: [Icons
  ](https://fonts.google.com/icons?selected=Material+Icons)
