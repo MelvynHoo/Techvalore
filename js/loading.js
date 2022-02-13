@@ -1,4 +1,4 @@
-setTimeout(myFunction, 9500);
+setTimeout(myFunction, 3000);
 
 function myFunction(){
   window.location.href = "home.html";
