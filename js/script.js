@@ -2,7 +2,7 @@ $(document).ready(function () {
     //what kind of interface we want at the start 
     const APIKEY = "6200f13c1b941c73ff397943";
     getProducts();
-    function getProducts(limit = 10, all = true){
+    function getProducts(limit = 26, all = true){
       let settings = {
         "async": true,
         "crossDomain": true,

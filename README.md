@@ -11,6 +11,11 @@ This project is about ecommerce that aims towards tech enthusiast that like hard
 # Design Process
 This website is to show that how user can explore within it.
 
+# Our Database
+- From our RestDB : [Product Database 
+ ](https://own-product-api.melvynhoo.repl.co/)
+
+
 # Credits
 ### RestDB
 - RestDB & CRUB : [2022 Wk12 Schools Powerpoint
