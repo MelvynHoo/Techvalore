@@ -4,7 +4,7 @@ var IsCalledOnce = false;
 function showIt() {
   document.getElementById("winnings").style.visibility = "visible";
 }
-setTimeout("showIt()", 2700); 
+setTimeout("showIt()", 2800); 
 function rotateMe() {
  if(IsCalledOnce)
   {
@@ -15,7 +15,7 @@ function rotateMe() {
    //do something
   console.log('rotating');
   var element = document.getElementById('rotateMe');
-  document.getElementById("demo").innerHTML = '0 Spins Left';
+  document.getElementById("demo").innerHTML = 'Spin(s) Left: 0';
   document.getElementById("winnings").innerHTML = 'You won 3 Coins!';
   element.classList.add("rotateMe");
   }
