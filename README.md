@@ -19,11 +19,10 @@ This website is to show that how user can explore within it.
  ](https://how-many-user-in-techvalore.melvynhoo.repl.co/)
 
 # Testing Process
-For the testing of the website, some has been able to store and retrieve the data gather from the user input and databases. However, some are there to simulate the process and has no actual function. Hence, to describe the testing process in the given scenarios is show here:
+For the testing of the website, some has been able to store and retrieve the data gather from the user input and databases. However, some are there to simulate the process and has no actual function. Hence, to describe the testing process in the given scenarios is showed here:
 1. Register page:
     1. Able to store the user input in the RestDB
     2. Able to tell the user that the input has successfully recorded into the database.
-    3. Courtesy of pr
 
 2. Home/Product page:
     1. Able to retrieve all the stored product from the database in RestDB
