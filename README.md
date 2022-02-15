@@ -6,7 +6,7 @@
 Github website link: https://melvynhoo.github.io/Techvalore/
 
 # About Techvalore
-This project is about ecommerce that aims towards tech enthusiast that like hardware technology and accessories. Where user can browse through different product to their likings.
+This project show a concept about an ecommerce website that aims towards tech enthusiast that like hardware technology and accessories. Where user can browse through different product to their likings.
 
 # Design Process
 This website is to show that how user can explore within it.
@@ -36,6 +36,9 @@ This website is to show that how user can explore within it.
 
 - [How to make a image rotate when i click the button
 ](https://stackoverflow.com/questions/61641362/how-to-make-a-image-rotate-when-i-click-the-button)
+
+- [Reveal a div after x seconds, and reveal another div after y seconds
+](https://stackoverflow.com/questions/18808383/reveal-a-div-after-x-seconds-and-reveal-another-div-after-y-seconds)
 
 ### Icons & Fonts
 - Google: [Fonts
