@@ -31,6 +31,12 @@ This website is to show that how user can explore within it.
 - [How to make an input type=button act like a hyperlink and redirect using a get request?
 ](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
 
+- [Click Button for One function Click Again for Another
+](https://stackoverflow.com/questions/19128311/click-button-for-one-function-click-again-for-another)
+
+- [How to make a image rotate when i click the button
+](https://stackoverflow.com/questions/61641362/how-to-make-a-image-rotate-when-i-click-the-button)
+
 ### Icons & Fonts
 - Google: [Fonts
  ](https://fonts.google.com/)
