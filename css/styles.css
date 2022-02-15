@@ -304,10 +304,23 @@ a.button {
     padding-left: 30%;
     padding-right: 30%;
     display: block;
+    text-align: center;
 
 }
 
+#minigame h1{
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+#minigame h2{
+    color:rgb(190, 3, 3);
+}
 .rotateMe {
     transition: all 2s ease;
-    transform: rotate(3600deg);
+    transform: rotate(3035deg);
   }
+
+  #minigame button{
+    width: 500px !important;
+}
