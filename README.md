@@ -12,9 +12,28 @@ This project show a concept about an ecommerce website that aims towards tech en
 This website is to show that how user can explore within it.
 
 # Our Database
-- From our RestDB : [Product Database 
+- From our RestDB Database  : [Product Database 
  ](https://own-product-api.melvynhoo.repl.co/)
 
+ - From our RestDB Database : [How many user in TechValore 
+ ](https://how-many-user-in-techvalore.melvynhoo.repl.co/)
+
+# Testing Process
+For the testing of the website, some has been able to store and retrieve the data gather from the user input and databases. However, some are there to simulate the process and has no actual function. Hence, to describe the testing process in the given scenarios is show here:
+1. Register page:
+    1. Able to store the user input in the RestDB
+    2. Able to tell the user that the input has successfully recorded into the database.
+    3. Courtesy of pr
+
+2. Home/Product page:
+    1. Able to retrieve all the stored product from the database in RestDB
+    2. Able to display all the neccessary product onto the home screen
+    3. The images should be clickable to enter into the product that the user has click. 
+
+3. Minigame page:
+    1. When the user click on the roll button, the wheels should spinning.
+    2. Upon completing the spin, the user are prompt of what winning they have earned.
+    3. The minigames page are there to show as a concept of the spinning wheel game and is unable to store the data of the user winnings.
 
 # Credits
 ### RestDB
@@ -45,3 +64,8 @@ This website is to show that how user can explore within it.
  ](https://fonts.google.com/)
 - Google: [Icons
  ](https://fonts.google.com/icons?selected=Material+Icons)
+
+ ### Acknowledgements
+
+- Inspired ideas from shopee for the minigame and the layout
+  - [Shopee](https://shopee.sg/)
