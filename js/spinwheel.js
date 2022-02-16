@@ -4,10 +4,10 @@ var IsCalledOnce = false;
 function showIt() {
   document.getElementById("winnings").style.visibility = "visible";
 }
-setTimeout("showIt()", 4500); 
+setTimeout("showIt()", 4510); 
 function rotateMe() {
  if(IsCalledOnce)
-  {
+  { 
   //do something
     document.getElementById("demo").innerHTML = 'No more spins left, try again tomorrow.';
   }else
