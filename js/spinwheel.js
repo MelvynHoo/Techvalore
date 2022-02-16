@@ -4,7 +4,7 @@ var IsCalledOnce = false;
 function showIt() {
   document.getElementById("winnings").style.visibility = "visible";
 }
-setTimeout("showIt()", 2800); 
+setTimeout("showIt()", 4500); 
 function rotateMe() {
  if(IsCalledOnce)
   {
