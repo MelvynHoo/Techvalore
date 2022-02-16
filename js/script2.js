@@ -1,4 +1,4 @@
-// For index html page, only to display the item and cannot be clicked
+// For home page that can click on items
 $(document).ready(function () {
     //what kind of interface we want at the start 
     const APIKEY = "6200f13c1b941c73ff397943";
