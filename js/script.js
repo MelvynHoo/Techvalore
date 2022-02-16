@@ -17,19 +17,29 @@ $(document).ready(function () {
       $.ajax(settings).done(function (response) {
         
         let content = "";
-  
-        for (var i = 0; i < response.length && i < limit; i++) {
-          content = `${content}<tr id='${response[i]._id}'><td>${response[i].title}</td>
+        /*content = `${content}<tr id='${response[i]._id}'><td>${response[i].title}</td>
           <td><img class="forimg" src= "${response[i].image}" alt="source image missing"></td>
           <td>${response[i].description}</td>
           <td>S$${response[i].price}</td>
-          </tr>`;
-  
+          </tr>`*/
+        for (var i = 0; i < response.length && i < limit; i++) {
+          content = `${content}<div class="col" id='${response[i]._id}'>
+          <div class="card h-100">
+            
+            <img class="forimg" src= "${response[i].image}" alt="source image missing">
+            
+              <div class="card-body">
+                <h5 class="card-title">${response[i].title}</h5>
+                <p class="card-text">S$${response[i].price}</p>
+              </div>
+            </div>
+          </div>
+          `;
         }
         console.log(content)
-        $("#contact-list tbody").html(content);
-  
-        $("#total-contacts").html(response.length);
+        $("#product-list div").html(content); // list all the product inside
+        //$("#all-products").html(response.length); // How many product in the database
       });
     }
+
   })
