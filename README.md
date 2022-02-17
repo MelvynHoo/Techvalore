@@ -86,5 +86,8 @@ For the testing of the website, some has been able to store and retrieve the dat
 
  ### Acknowledgements
 
-- Inspired ideas from shopee for the minigame and the layout
-  - [Shopee](https://shopee.sg/)
+- Inspired ideas from shopee for the minigame ant grab for it's many unique features
+  - [Shopee
+  ](https://shopee.sg/)
+   - [Grab
+  ]( https://www.grab.com/sg/)
