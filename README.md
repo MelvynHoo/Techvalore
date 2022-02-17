@@ -45,9 +45,7 @@ For the testing of the website, some has been able to store and retrieve the dat
 - Lottie Loading : [Fork from lottiefiles
  ](https://lottiefiles.com/89991-loading)
 
-### Tips I Use
-
-## StackOverflow
+### StackOverflow
 - [How to make an input type=button act like a hyperlink and redirect using a get request?
 ](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
 
@@ -60,14 +58,14 @@ For the testing of the website, some has been able to store and retrieve the dat
 - [Reveal a div after x seconds, and reveal another div after y seconds
 ](https://stackoverflow.com/questions/18808383/reveal-a-div-after-x-seconds-and-reveal-another-div-after-y-seconds)
 
-## w3schools
+### w3schools
 - [Window SessionStorage, to save user input
 ](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp)
 
 - [onclick Event
 ](https://www.w3schools.com/jsref/event_onclick.asp)
 
-## Others
+### Others
 - [More example of Request/Get Session Storage
 ](https://www.codegrepper.com/code-examples/javascript/request+session+javascript)
 
