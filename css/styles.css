@@ -155,6 +155,10 @@ nav .container1 ul li.active a {
     z-index: 1 !important;
 }
 
+.carousel-indicators{
+    z-index: 1 !important;
+}
+
 /* Categories Section */
 .card-img-top{
     width: 400px !important;
@@ -269,8 +273,6 @@ a.button {
     text-decoration: none;
     color: initial;
 }
-
-/*Register Page*/
 
 /* Profile Page*/
 #profile {
