@@ -160,7 +160,7 @@ nav .container1 ul li.active a {
 }
 
 /* Categories Section */
-.card-img-top{
+#categories .card-img-top{
     width: 400px !important;
     height: 400px !important;
     margin-left: auto !important;
@@ -193,16 +193,20 @@ nav .container1 ul li.active a {
     color: #000000;
 }
 
-.card-title{
+.container3 .card-title{
     text-align: center !important;
 }
 
-.forimg{
+.container3 .forimg{
     width: 400px !important;
     height: 400px !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 5% !important;
+}
+.container3 .products{
+    text-decoration: none;
+    color: #000000;
 }
 
 /*Footer Section*/
@@ -354,12 +358,12 @@ a.button {
     padding: 10px;
 }
 
-.col-md-3{
+#voucher .col-md-3{
     text-align: center !important;
     padding-top: 2%;
 }
 
-.col-md-8{
+#voucher .col-md-8{
     text-align: center !important;
     margin: auto;
 }
@@ -383,11 +387,81 @@ a.button {
 #minigame h2{
     color:rgb(190, 3, 3);
 }
-.rotateMe {
+#minigame .rotateMe {
     transition: all 4s ease;
     transform: rotate(3035deg);
 }
 
 #minigame button{
     width: 500px !important;
+}
+
+/* Product Page */
+
+#productpage{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#productpage .card-img-top{
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5% !important;
+}
+
+#productpage #product{
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#productpage .card-title{
+    text-align: left !important;
+}
+
+#productpage a{
+    width: 49%;
+    text-align: center;
+}
+
+/* Cart page */
+#cartpage{
+    height: 90vh;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#cartpage #cartproduct{
+    padding: 20px;
+}
+
+#cartpage img{
+    width: 80%;
+}
+
+#cartpage .col-md-8{
+    margin: auto;
+}
+
+#cartpage h1{
+    color: #7e8081;
+    margin-top: 150%;
+    margin-bottom: 150%;
+}
+
+#cartpage .card{
+    padding:10px !important;
+}
+#cartpage #buy-now{
+    width: 100%;
+    text-align: center;
+}
+
+#cartpage #remove{
+    width: 50%;
+    text-align: center;
+}
+
+#cartpage #menu{
+    padding-bottom: 30px !important;
 }
