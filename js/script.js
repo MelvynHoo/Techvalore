@@ -37,7 +37,7 @@ $(document).ready(function () {
           </div>
           `;
         }
-        console.log(content)
+        //console.log(content)
         $("#product-list div").html(content); // list all the product inside
         //$("#all-products").html(response.length); // How many product in the database
       });

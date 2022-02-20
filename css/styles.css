@@ -105,7 +105,7 @@ nav .container1 ul li.active a {
 
 #productlist {
     background-color: #ffffff;
-    height: 530vh;
+    height: 100%;
 }
 
 .mascot {
@@ -180,6 +180,7 @@ nav .container1 ul li.active a {
 .container3{
     font-size: 18px;
     width: 100%;
+    padding-bottom: 100px;
 }
 .container3 h1{
     text-align: center;
@@ -344,7 +345,7 @@ a.button {
 }
 /* Voucher Page*/
 #voucher {
-    height: 105vh;
+    height: 100%;
     background-color: #ffffff;
     padding-left: 30%;
     padding-right: 30%;
@@ -436,7 +437,7 @@ a.button {
 }
 
 #cartpage img{
-    width: 80%;
+    width: 80% !important;
 }
 
 #cartpage .col-md-8{
@@ -444,6 +445,10 @@ a.button {
 }
 
 #cartpage h1{
+    padding-top: 10px;
+}
+
+#cartpage h2{
     color: #7e8081;
     margin-top: 150%;
     margin-bottom: 150%;
@@ -464,4 +469,123 @@ a.button {
 
 #cartpage #menu{
     padding-bottom: 30px !important;
+}
+
+#cartpage #yesitem{
+    width: 1000px;
+}
+
+/* Payment page */
+#paymentpage{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#paymentpage .card{
+    width: 100%;
+}
+
+#paymentpage .container4{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    width: 700px !important;
+}
+
+#paymentpage #placeorder{
+    width: 100%;
+}
+
+#paymentpage h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#paymentpage .card-img-top{
+    width: 500px;
+    height: 500px;
+}
+
+#paymentpage #creditcard{
+    text-decoration: none;
+    color: #000000;
+}
+
+#paymentpage .card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+}
+
+/*Payment Option Page*/
+#paymentoption{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+#paymentoption .img-fluid{
+    height:70px !important;
+}
+
+#paymentoption .container5{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#paymentoption h1{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#paymentoption .submitbtn{
+    padding-top: 30px;
+}
+
+#paymentoption #submit{
+    width: 100%;
+}
+
+/* confirmation page */
+#confirmationpage{
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+#confirmationpage h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#confirmationpage #surebo{
+    padding-bottom: 30px;
+}
+
+#confirmationpage #confirmpayment{
+    width: 100%;
+}
+
+
+/* Order Complete Page */
+#ordercompletepage{
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+#ordercompletepage h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#ordercompletepage #finish{
+    padding-bottom: 30px;
+}
+
+#ordercompletepage #returnhome{
+    width: 100%;
 }
