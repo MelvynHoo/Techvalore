@@ -951,12 +951,12 @@ nav .container1 ul li.active a {
     }
 
     /*Login Page*/
-    .loginpage {
+    #login .loginpage {
         width: 300px;
     }
     /*Register Page*/
 
-    .registerpage{
+    #register .registerpage{
         width: 300px;
     }
 
