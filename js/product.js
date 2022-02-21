@@ -68,7 +68,7 @@ $(document).ready(function () {
             </div>
                 <a  href="payment.html" class="btn btn-secondary" id="buy-now">Buy Now</a>
                 `;
-            console.log(cartitem)
+            //console.log(cartitem)
             $("#cartproduct div").html(cartitem); 
         }
 

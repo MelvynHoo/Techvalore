@@ -21,6 +21,11 @@ section {
     /*text-transform: uppercase;*/
 }
 
+.lottie{
+    width: 600px; 
+    height: 600px;
+}
+
 nav .techvalore{
     position:fixed;
     left:30px;
@@ -123,7 +128,6 @@ nav .container1 ul li.active a {
     bottom: 0;
     right: 0;
 }
-
 
 /* Trending Page Section */
 .container2{
@@ -247,7 +251,7 @@ nav .container1 ul li.active a {
     height: 85vh; /*vh = viewport height*/
 }
 
-.loginpage {
+#login .loginpage {
     width: 500px;
 }
 
@@ -261,7 +265,7 @@ nav .container1 ul li.active a {
     height: 85vh; /*vh = viewport height*/
 }
 
-.registerpage{
+#register .registerpage{
     width: 500px;
 }
 
@@ -270,7 +274,7 @@ nav .container1 ul li.active a {
     text-align: center;
 }
 
-a.button {
+#register a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -369,6 +373,14 @@ a.button {
     margin: auto;
 }
 
+#voucher .redeemcontainer{
+    padding-bottom: 50px;
+}
+
+#voucher .btn-secondary{
+    width: 200px !important;
+}
+
 /* Minigames Page*/
 #minigame {
     height: 85vh;
@@ -423,6 +435,10 @@ a.button {
 #productpage a{
     width: 49%;
     text-align: center;
+}
+
+#product{
+    max-width: 700px;
 }
 
 /* Cart page */
@@ -588,4 +604,478 @@ a.button {
 
 #ordercompletepage #returnhome{
     width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+
+    /* Categories Section */
+    #categories .card-img-top{
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    /* Product Section */
+
+    .container3 .forimg{
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Categories Section */
+    #categories .card-img-top{
+        width: 300px !important;
+        height: 300px !important;
+    }
+        
+    /* Product Section */    
+        
+    .container3 .forimg{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .mascot img{
+        padding-top: 630px;
+        width: 250px;
+        bottom: 0;
+        right: 0;
+    }
+    /* Profile Page*/
+    #profile {
+        height: 100vh;
+    }
+
+    .profilepic{
+        width: 100%;
+        padding-left: 30%;
+    }
+
+    .profilepic1 {
+        width: 200px;   
+    }
+
+    .profile1 {
+        height: 40%;
+    }
+
+    .info{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 5%;
+        padding-left: 3%;
+    }
+    /* Minigames Page*/
+
+    #minigame button{
+        width: 400px !important;
+    }
+
+    /* Cart page */
+    #cartpage img{
+        width: 70% !important;
+    }
+
+    #cartpage #yesitem{
+        width: 800px;
+    }
+        
+}
+
+@media screen and (max-width: 1000px) {
+
+    .mascot img{
+        padding-top: 640px;
+        width: 240px;
+    }
+
+    /* Categories Section */
+    #categories .card-img-top{
+        width: 200px !important;
+        height: 200px !important;
+    }
+        
+    /* Product Section */        
+    .container3 .forimg{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    #trending {
+        height: 60vh;
+    }
+    #categories {
+        height: 60vh;
+    }
+
+    /* Trending Page Section */
+    .artstation{
+        width: 100%;
+        height: 60vh;
+    }
+    /* Profile Page*/
+    .profilepic{
+        padding-left: 25%;
+    }  
+
+    /*Minigame Page*/
+    #minigame button{
+        width: 350px !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    html {
+        font-size: 14px;
+    }
+
+    nav .techvalore{
+        left:20px;
+        width: 20%;
+        top: 18px;
+    }
+
+    nav .techvalore a{
+        font-size: 26px;
+    }
+
+    nav .profile-icon img{
+        width: 28px;
+    }
+
+    nav .login-container{
+        position:fixed;
+        right:15px;
+        top: 27px;
+    }
+    nav .login-container a{
+        font-size: 14px;
+    }
+
+    nav {
+        height: 75px;
+    }
+        
+    .mascot img{
+        padding-top: 640px;
+        width: 240px;
+        bottom: 0;
+        right: 0;
+    }
+        
+    /* Trending Page Section */
+    .container2{
+        width: 100%;
+        
+    }
+
+    .container2 h1{
+        padding: 10px;
+    }
+
+    /* Profile Page*/
+    .profilepic{
+        padding-left: 24%;
+    }
+
+    /* Minigames Page*/
+    #minigame img{
+        width: 300px;
+    }
+
+    #minigame button{
+        width: 300px !important;
+    }
+
+    #voucher .btn-secondary{
+        width: 100% !important;
+    }
+
+    /* Cart page */
+    #cartpage img{
+        width: 70% !important;
+    }
+
+    #cartpage #yesitem{
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    #trending {
+        height: 50vh;
+    }
+    .artstation{
+        width: 100%;
+        height: 50vh;
+    }
+        
+    .mascot img{
+        padding-top: 650px;
+        width: 240px;
+    }
+
+    #categories {
+        height: 100vh;
+    }
+        
+    /* Categories Section */
+    #categories .card-img-top{
+        width: 200px !important;
+        height: 200px !important;
+    }
+        
+    /* Product Section */
+    .container3{
+        font-size: 16px !important;
+        width: 80%;
+        padding-bottom: 100px;
+    }        
+    .container3 .forimg{
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .container3 p {
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        color: #000000;
+    }
+    /* Profile Page*/
+    .profilepic{
+        padding-left: 16%;
+    }
+
+    .profilepic1 {
+        width: 200px;   
+    }
+
+    .profile1 {
+        height: 42%;
+    }
+
+    .info{
+        width: 90%;
+    }
+
+    /* Product Page */
+
+    #product{
+        padding: 50px;
+    }
+
+    #cartpage img{
+        width: 60% !important;
+    }
+
+    #cartpage #yesitem{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .mascot img{
+        padding-top: 610px;
+        width: 200px;
+    }
+    /* Profile Page*/
+    #profile {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .profilepic1 {
+        width: 200px;   
+    }
+
+    .profile1 {
+        overflow: hidden;
+        margin: auto;
+        font-size: 20px;
+        width: 65%;
+        height: 38%;
+        padding: 1%;
+        background: rgb(241, 241, 241);
+        border-radius: 30px;
+        box-shadow: 0 8px 0 0 rgba(0,0,0,0.1);
+    }
+    .profile2 {
+        font-size: 18px;
+        width: 70%;
+        height: 50%;
+        text-align: center;
+        padding: 1.5em;
+        margin: auto;
+    }
+
+    .info{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 5%;
+        padding-left: 3%;
+    }
+
+    /* Minigames Page*/
+    #minigame img{
+        width: 240px;
+    }
+
+    #minigame button{
+        width: 230px !important;
+    }
+}
+/*mobile view*/
+@media screen and (max-width: 590px) {
+    /*change nav to hamburger*/
+    
+    .mascot img{
+        padding-top: 600px;
+        width: 200px;
+    }
+    #expansion {
+        height: 130px;
+    }
+    #expansion .container1 {
+        position:fixed;
+        width: 100%;
+        padding-top: 70px;
+    }
+    #expansion .container1 ul li a {
+        padding: 10px 10px;
+    }
+
+    /*Login Page*/
+    .loginpage {
+        width: 300px;
+    }
+    /*Register Page*/
+
+    .registerpage{
+        width: 300px;
+    }
+
+    /*Loading Page*/
+    .animation-center{ 
+    width: 40%;
+    padding-left: 50%;
+    display: flex;
+    /*height: 100vh;*/ /*if we only want this item to be smack center*/
+    }
+    .lottie{
+        width: 400px; 
+        height: 400px; 
+    }
+
+    /* Profile Page*/
+    #profile {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .profilepic{
+        padding-left: 22%;
+    }
+    .profilepic1 {
+        width: 200px;   
+    }
+
+    .profile1 {
+        font-size: 18px;
+        width: 90%;
+        height: 42%;
+        padding: 1%;
+        background: rgb(241, 241, 241);
+        border-radius: 30px;
+        box-shadow: 0 8px 0 0 rgba(0,0,0,0.1);
+    }
+    .profile2 {
+        font-size: 18px;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        padding: 1.5em;
+        margin: auto;
+    }
+
+    .info{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 5%;
+        padding-left: 3%;
+    }
+
+    /* Minigames Page*/
+    #minigame img{
+        width: 180px;
+    }
+
+    #minigame button{
+        width: 190px !important;
+    }
+
+    #cartpage img{
+        width: 50% !important;
+    }
+
+    #cartpage #yesitem{
+        width: 320px;
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+    #expansion .container1 {
+        position:fixed;
+        width: 345px;
+        padding-top: 70px;
+    }
+    /*Login Page*/
+    .loginpage {
+        width: 200px;
+    }
+    .registerpage{
+        width: 200px;
+    }
+
+    /* Profile Page*/
+    #profile {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profilepic{
+        padding-left: 10%;
+    }
+    .profilepic1 {
+        width: 200px;   
+    }
+
+    .profile1 {
+        overflow: hidden;
+        margin: auto;
+        font-size: 18px;
+        width: 100%;
+        height: 44%;
+    }
+
+    /* Minigames Page*/
+    #minigame img{
+        width: 140px;
+    }
+
+    #minigame button{
+        width: 150px !important;
+    }
+
+    #paymentoption .img-fluid{
+        height:50px !important;
+    }
+
 }
