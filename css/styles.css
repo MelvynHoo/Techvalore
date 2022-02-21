@@ -820,7 +820,7 @@ nav .container1 ul li.active a {
     }
 
     #categories {
-        height: 110vh;
+        height: 100%;
     }
         
     /* Categories Section */
