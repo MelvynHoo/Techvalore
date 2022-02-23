@@ -12,7 +12,7 @@ This project show a concept about an ecommerce website that aims towards tech en
 When we planned out the application, we knew we wanted tech enthusiasts to be our main target audience through this website, we hope to bring convenience to our consumers and ensuring our website design and layout to be simple and minimalistic.
 We knew that we did not want the website that is overcrowded, driving users away from their main goal which is browsing through the website and enjoying the perks along with it. Our website is pretty straightforward, and it is generous with it's perks.
 - As a user, I want to be able to obtain vouchers so i can purchase items at a discounted price
-- As a user, I want to be able to enjoy the perks of the application so i will make routine purchases and login to the application to earn coins
+- As a user, I want to be able to enjoy the perks of the application so i want to be able to make routine purchases and login to the application to earn coins
 - Adobe XD : [Our High and Low Fidelity Wireframe
  ](https://xd.adobe.com/view/59c5f7fc-4347-4a25-97e1-bcf29d76c3a5-0c96/
 )
